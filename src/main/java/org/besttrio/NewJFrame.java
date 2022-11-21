@@ -5,6 +5,8 @@ package org.besttrio;
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
+import org.intellij.lang.annotations.Pattern;
+import java.util.regex.*;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
 
@@ -49,6 +51,17 @@ public class NewJFrame extends javax.swing.JFrame {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+    }
+    public static boolean rendszamFormatum(String rendszam){
+        Pattern rendszamForma = Pattern.compile("(^[a-z]{3,4}[1-9]{3}$)");
+        Matcher rendszamMegfelel = rendszamForma.matcher(rendszam);
+        boolean megfelel = rendszamMegfelel.find();
+        if(megfelel){
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     /**
