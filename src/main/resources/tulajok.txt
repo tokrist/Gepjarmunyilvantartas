@@ -1,0 +1,4 @@
+Tulajdonos kód	Név	Cím
+1	Teszt Elek	Tata
+2	Vad Alma	Tatabánya
+3	Kő Pál	Baj
