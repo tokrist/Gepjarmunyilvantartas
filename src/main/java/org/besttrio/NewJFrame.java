@@ -333,7 +333,7 @@ public class NewJFrame extends javax.swing.JFrame {
             Hiba.setText("Kérem adja meg a nevét!");
         }else if(cim.getText().length()<1){
             Hiba.setText("Kérem adja meg a címét!");
-        }else if(rendszam.getText()!=rendszamFormatum()){
+        }else if(rendszamFormatum(rendszam.getText())){
             Hiba.setText("Rossz a rendszám formátuma");
         }
         
