@@ -5,6 +5,9 @@ package org.besttrio;
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
+import java.io.RandomAccessFile;
+import java.util.ArrayList;
+
 /**
  *
  * @author bebe0
@@ -16,6 +19,35 @@ public class NewJFrame extends javax.swing.JFrame {
      */
     public NewJFrame() {
         initComponents();
+    }
+
+    public static void readVehicleFile(String fileName) {
+        ArrayList<Vehicle> jarmuvek = new ArrayList<>();
+        try {
+            RandomAccessFile file = new RandomAccessFile(fileName, "r");
+            String sor = file.readLine();
+            sor = file.readLine();
+            while(sor != null) {
+                jarmuvek.add(new Vehicle(sor.split("\t")));
+                sor = file.readLine();
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static void readOwnerFile(String fileName) {
+        ArrayList<Owner> tulajok = new ArrayList<>();
+        try {
+            RandomAccessFile file = new RandomAccessFile(fileName, "r");
+            String sor = file.readLine();
+            sor = file.readLine();
+            while(sor != null) {
+                tulajok.add(new Owner(sor.split("\t")));
+                sor = file.readLine();
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
