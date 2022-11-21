@@ -5,10 +5,10 @@ public class Owner {
     private String nev;
     private String cim;
 
-    public Owner(int tulajdonosKod, String nev, String cim) {
-        this.tulajdonosKod = tulajdonosKod;
-        this.nev = nev;
-        this.cim = cim;
+    public Owner(String [] be) {
+        this.tulajdonosKod = Integer.parseInt(be[0]);
+        this.nev = be[1];
+        this.cim = be[2];
     }
 
     public int getTulajdonosKod() {
