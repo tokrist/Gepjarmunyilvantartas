@@ -30,7 +30,7 @@ public class NewJFrame extends javax.swing.JFrame {
             String sor = file.readLine();
             sor = file.readLine();
             while(sor != null) {
-                jarmuvek.add(new Vehicle(sor.split("\t")));
+                jarmuvek.add(new Vehicle(sor.split(";")));
                 sor = file.readLine();
             }
         } catch (Exception e) {
