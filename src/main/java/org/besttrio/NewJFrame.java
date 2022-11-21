@@ -52,7 +52,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }
     public static boolean rendszamFormatum(String rendszam){
-        Pattern rendszamForma = Pattern.compile("(^[a-z]{3,4}[1-9]{3}$)");
+        Pattern rendszamForma = Pattern.compile("(^[a-z]{3,4}[1-9]{3}$)", Pattern.CASE_INSENSITIVE);
         Matcher rendszamMegfelel = rendszamForma.matcher(rendszam);
         boolean megfelel = rendszamMegfelel.find();
         if(megfelel){
