@@ -53,7 +53,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }
     public static boolean rendszamFormatum(String rendszam){
-        Pattern rendszamForma = Pattern.compile("(^[a-z]{3,4}[1-9]{3}$)");
+        Pattern rendszamForma = Pattern.compile("(^[a-z]{3,4}[1-9]{3}$)", Pattern.CASE_INSENSITIVE);
         Matcher rendszamMegfelel = rendszamForma.matcher(rendszam);
         boolean megfelel = rendszamMegfelel.find();
         if(megfelel){
@@ -336,9 +336,9 @@ public class NewJFrame extends javax.swing.JFrame {
             Hiba.setText("Kérem adja meg a nevét!");
         }else if(cim.getText().length()<1){
             Hiba.setText("Kérem adja meg a címét!");
-        }else if(rendszam.getText()!=rendszamForma()){
-            Hiba.setText("Rossz a rendszám formátuma");
-        }
+        }//else if(rendszam.getText()!= rendszamFormatum()){
+            //Hiba.setText("Rossz a rendszám formátuma");
+       // }
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
