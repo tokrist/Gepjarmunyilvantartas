@@ -44,7 +44,7 @@ public class NewJFrame extends javax.swing.JFrame {
             String sor = file.readLine();
             sor = file.readLine();
             while(sor != null) {
-                tulajok.add(new Owner(sor.split("\t")));
+                tulajok.add(new Owner(sor.split(";")));
                 sor = file.readLine();
             }
         } catch (Exception e) {
