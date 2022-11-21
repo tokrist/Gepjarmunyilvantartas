@@ -5,7 +5,6 @@ package org.besttrio;
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 
-import org.intellij.lang.annotations.Pattern;
 import java.util.regex.*;
 import java.io.RandomAccessFile;
 import java.util.ArrayList;
@@ -309,8 +308,6 @@ public class NewJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_cimActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        
         boolean ures = false;
         
         
@@ -336,7 +333,7 @@ public class NewJFrame extends javax.swing.JFrame {
             Hiba.setText("Kérem adja meg a nevét!");
         }else if(cim.getText().length()<1){
             Hiba.setText("Kérem adja meg a címét!");
-        }else if(rendszam.getText()!=rendszamForma()){
+        }else if(rendszam.getText()!=rendszamFormatum()){
             Hiba.setText("Rossz a rendszám formátuma");
         }
         
