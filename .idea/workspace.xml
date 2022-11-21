@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f3978de1-1f39-4543-843a-0aa200e8ca43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/besttrio/NewJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/besttrio/NewJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jarmuvek.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tulajok.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <workItem from="1669026048034" duration="458000" />
       <workItem from="1669027395850" duration="99000" />
       <workItem from="1669027523169" duration="343000" />
-      <workItem from="1669027881495" duration="362000" />
+      <workItem from="1669027881495" duration="581000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669021815051</created>
@@ -126,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669027581384</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="java19 sdk">
+      <created>1669028252723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669028252723</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +164,8 @@
     <MESSAGE value="read files" />
     <MESSAGE value="organize code" />
     <MESSAGE value="debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug" />
+    <MESSAGE value="java19 sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="java19 sdk" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

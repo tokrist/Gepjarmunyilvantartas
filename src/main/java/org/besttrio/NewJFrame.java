@@ -48,7 +48,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 sor = file.readLine();
             }
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println("HIBA!" + e);
         }
     }
     public static boolean rendszamFormatum(String rendszam){

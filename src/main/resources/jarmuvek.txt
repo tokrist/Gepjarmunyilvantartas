@@ -1,4 +1,0 @@
-﻿Rendszám        Márka        Típus        Hengerűrtartalom        Össztömeg        Gyártási év        Alvázszám        Motorszám        Műszaki        Tulajdonos kód
-ABC123        Peugeot        206        1100        2000        2012        KG567FFF3        112233445566        2023        3
-ABCD123        Suzuki        Swift        1300        1600        1998        KLZU77773333        152456456747575        2024        2
-XYZ        Ford        Mondeo        1600        2200        2019        GFDR456F444        15877772559433        2025        1
