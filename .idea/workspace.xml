@@ -7,6 +7,7 @@
     <list default="true" id="f3978de1-1f39-4543-843a-0aa200e8ca43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/besttrio/NewJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/besttrio/NewJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/tulajok.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tulajok.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669021769751</updated>
-      <workItem from="1669021771995" duration="3280000" />
+      <workItem from="1669021771995" duration="3634000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1669021815051</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669024741879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mothodes moved to form">
+      <created>1669025090653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025090653</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +122,7 @@
     <MESSAGE value="create Owner.java" />
     <MESSAGE value="Owner constructor update" />
     <MESSAGE value="create readfile methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="create readfile methods" />
+    <MESSAGE value="mothodes moved to form" />
+    <option name="LAST_COMMIT_MESSAGE" value="mothodes moved to form" />
   </component>
 </project>
